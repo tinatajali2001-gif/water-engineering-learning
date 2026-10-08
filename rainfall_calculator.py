@@ -13,3 +13,10 @@ print("Total rainfall volume:", rainfall_volume_m3, "m3")
 
 print("Calculation complete!")
 print("My first GitHub project is ready!")
+
+# Calculate average rainfall intensity
+
+duration_hours = 2
+rainfall_intensity = rainfall_mm / duration_hours
+
+print("Average rainfall intensity:", rainfall_intensity, "mm/h")
